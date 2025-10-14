@@ -7,6 +7,15 @@
     <title>PH-Tube </title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .active {
+            background: #ff1f3d;
+            color: white;
+        }
+
+    </style>
+
+
 </head>
 
 <body>
@@ -24,15 +33,18 @@
         </nav>
     </header>
 
-    <nav id="categories-container" class="flex justify-center py-5 gap-5">
+    <nav  id="categories-container" class="flex justify-center py-5 gap-5">
         <div>
-            <button class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
+            <button onclick="loadVideo()" class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
         </div>
     </nav>
     <!-- video load  -->
     <section id="video-container" class="w-11/12 mx-auto gap-5 grid grid-cols-4">
 
-        
+        <div class="col-span-full py-20 flex flex-col text-center items-center py-">
+            <img class="w-[120px]" src="/png/Icon.png" alt="">
+            <h2 class="text-2xl font-bold">Oop!! sorry there is no content here </h2>
+        </div>
         
 
     </section>
